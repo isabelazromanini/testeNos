@@ -1,0 +1,14 @@
+## YAML Templatesss
+---
+## Scripts para execuçao
+default:  -p pretty -p html -p json -p nos -p chrome 
+progress: --format progress
+pretty: --format pretty
+html: --format html --out=relatorios/cucumber_relatorio.html
+json: --format json --out=relatorios/report.json
+chrome: BROWSER=chrome
+chrome_headless: BROWSER=chrome_headless
+firefox: BROWSER=firefox
+firefox_headless: BROWSER=firefox_headless
+nos: ENVIRONMENT_TYPE=nos
+remote: BROWSER=remote_chrome
