@@ -1,0 +1,27 @@
+#caso o projeto tenha multiplos ambientes criei o arquivo DEV para que a automacao rode em ambientes diferentes 
+url_users:
+  url_exclusao_usuario: 'https://gorest.co.in/public/v2/users/{idUsuario}'
+  url_alteracao_usuario: 'https://gorest.co.in/public/v2/users/{idUsuario}'
+  url_cadastro_usuario: 'https://gorest.co.in/public/v2/users'
+  url_consulta_usuario: 'https://gorest.co.in/public/v2/users/{idUsuario}'
+  url_listagem_usuarios: 'https://gorest.co.in/public/v2/users'
+
+
+url_todos:
+  url_cadastrar_tarefa_usuario: 'https://gorest.co.in/public/v2/users/{idUsuario}/todos'
+  url_consultar_todas_tarefas: 'https://gorest.co.in/public/v2/todos'
+  url_consultar_tarefas_usuario: 'https://gorest.co.in/public/v2/users/{idUsuario}/todos'
+
+
+url_coments: 
+  url_cadastrar_comentario_usuario: 'https://gorest.co.in/public/v2/posts/{idUsuario}/comments'
+  url_consultar_todos_comentarios: 'https://gorest.co.in/public/v2/comments'
+  url_consultar_comentarios_usuario: 'https://gorest.co.in/public/v2/posts/{idUsuario}/comments'
+
+url_posts: 
+  url_cadastrar_publicacao_usuario: 'https://gorest.co.in/public/v2/users/{idUsuario}/posts'
+  url_consultar_todas_publicacoes: 'https://gorest.co.in/public/v2/posts'
+  url_consultar_publicacoes_usuario: 'https://gorest.co.in/public/v2/users/{idUsuario}/posts'
+
+token: '7ccaeab314ba4c84811bb68959b267c291b7424360d70232cc9f743b1a28e9bd'
+
